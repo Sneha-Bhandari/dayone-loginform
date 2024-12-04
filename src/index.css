@@ -1,0 +1,96 @@
+body{
+  margin: 0px;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.main{
+  /*width: fit-content;*/
+  height: fit-content;
+  display: grid;
+  box-shadow: 1px 1px 20px 5px rgb(190, 188, 188);
+  grid-template-columns: 1fr 1fr;
+    width: 600px;
+   
+}
+
+.leftside{
+  background-color: rgb(186, 139, 186);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  padding: 30px 20px;
+}
+
+.rightside{
+  background-color: rgb(165, 224, 205);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding: 30px 10px;
+}
+
+.button{
+  background-color: white;
+  border: none;
+  height: fit-content;
+  width: fit-content;
+  padding: 10px 30px;
+  color: blueviolet;
+  border-radius: 10px;
+  box-shadow: 1px 1px 10px rgb(200, 196, 196);
+}
+
+.submit{
+background-color: red;
+border: none;
+height: fit-content;
+width: fit-content;
+padding: 10px 30px;
+border-radius: 10px;
+color: wheat;
+box-shadow: 1px 1px 10px white ;
+
+}
+
+.signup{
+  font-size: 32px;
+  font-weight: 800;
+  text-transform: capitalize;
+}
+.description{
+  text-align: center;
+  color: white;
+  width: 90%;
+  margin: 0px auto;
+}
+
+.icon svg{
+  height: 100px;
+  width: 100px;
+  color: rgb(101, 110, 169);
+  }
+
+  .input1{
+display: flex;
+flex-direction: column;
+gap: 30px;
+
+  }
+
+  .input1 input{
+    outline: none;
+    padding: 10px 20px;
+  }
+
+  .input1 input ::placeholder{
+    color: lightgrey;
+
+}
